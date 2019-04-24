@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Caput 1</title>
+        <author ref="#RobertOfCricklade">Robert of Cricklade</author>
+        <editor xml:id="AW">Andrew Dunning</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Caput 1 [Cambridge 380 Transcription]</title>
+          <date when="2019-04-23">April 23, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="C" n="cod-hgt67y">Cambridge 380</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-04-23" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#C" n="3-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="mnh3nj-d1e86">
+        <head>Caput 1 [Cambridge 380 Transcription]</head>
+        <p><lb ed="#C"/>Quod unus deus sit colendus. Et quod in prima deceptione suggessit diabolus ydola<lb ed="#C"/>triam. 
+          et quod deceptus homo amittendo immortali<lb ed="#C"/>tatem 
+          per experientiam didicit bonum et malum.
+        </p>
+        <p>
+          <lb ed="#C"/><quote ana="#deut6_4">Audi <name>israhel</name> dominus deus tuus deus unus est.</quote>
+          <lb ed="#C"/>In <title>deuteronomio</title> <name>moyses</name> legem recapitu<lb ed="#C"/>lando 
+          capitulum hoc et alia multa eui<lb ed="#C"/>denter 
+          expressit. ut populum cui pre<lb ed="#C"/>erat 
+          a cultura deorum quibus illusa gentilitas 
+          <lb ed="#C"/>famulabatur⸵ ad unius dei uiui et ueri 
+          <lb ed="#C"/>cultum reuocaret. Pronus enim erat populus ille 
+          <lb ed="#C"/>ad supplicandum idolis sicut sequentibus 
+          <lb ed="#C"/>monstrabimus. Sed ab re esse non arbitror interserere.
+          <lb ed="#C"/>quo instinctu ista supersticio humanis inoleuit men<lb ed="#C"/>tibus. 
+          Oportet itaque ut ad lapsum primi hominis re<lb ed="#C"/>curramus. Ibi ni fallor. huius morbi initium in<lb ed="#C"/>ueniemus. 
+          Sic et enim scriptum est. <quote ana="#gen3_1 #gen3_2 #gen3_3 #gen3_4 #gen3_5">Dixit serpens ad
+          <lb ed="#C"/>mulierem. <mentioned>Quare precepit uobis deus ut non comederetis
+          <pb ed="#C" n="3-r"/>
+          <lb ed="#C"/>de omni ligno quod est in paradiso?</mentioned> <mentioned>De ligno</mentioned> inquit <mentioned>quod 
+          <lb ed="#C"/>est in medio paradisi precepit nobis deus ne comeder<lb ed="#C"/>mus. neque tangeremus illud⸵ ne forte moramur.</mentioned> Et ser<lb ed="#C"/>pens. <mentioned>Nequaquam</mentioned> inquit <mentioned>moriemini. Scit enim deus quod qua<lb ed="#C"/>cumque dei comederitis ex eo⸵ aperientur oculi uestri. et eritis
+          <lb ed="#C"/>sicut dii scientes bonum et malum.</mentioned></quote> Intelligis quid dicat
+          <lb ed="#C"/>omnis fraudis fraudulentissimus commentor? <mentioned>Eritis</mentioned> 
+          <lb ed="#C"/>ait <mentioned>sicut dii.</mentioned> Quare non dixit. <mentioned>eritis sicut deus?</mentioned> Nunquid
+          <lb ed="#C"/>non in interrogatione sua premisit. quare precepit uobis deus?
+          <lb ed="#C"/>Et causa reddita a muliere⸵ subiunxit. <mentioned>Scit enim
+          <lb ed="#C"/>deus.</mentioned> et cetera. Licet quippe sit ipse superbus et presumptor spiritus⸵
+          <lb ed="#C"/>non tamen ausus est dicere eritis sicut deus. sed sicut dii⸵<lb ed="#C"/>timens 
+          derogare deo. et ne forte si diuinitatis ma<lb ed="#C"/>iestatem 
+          homini persuadere⸵ in fallatie sue cauilla<lb ed="#C"/>tione 
+          deprehenderetur. Preterea nitebatur persuadere 
+          <lb ed="#C"/>homini. deum fore inuid<add place="in-ras">um⸵</add> qui prohibebat de illo 
+          <lb ed="#C"/>ligno uesci. cuius esu tantam scientiam adquireret⸵ propi<lb ed="#C"/>tios 
+          uero deos˷ quorum scientie participes fierent illa com<lb ed="#C"/>mestione. 
+          Attende queso attentius. uersutiam uersipel<lb ed="#C"/>lis apostate. 
+          Hoc quidem stimulo fallatie. cepit auo<lb ed="#C"/>care 
+          hominem a timore dei ad contemptum⸵ et irritare 
+          <lb ed="#C"/>ad suum fauorem. Quia si homo non contempsisset. num<lb ed="#C"/>quam 
+          suo deceptori assensum prebuisset⸵ <del rend="strikethrough">ut inobediens</del>
+          <pb ed="#C" n="3-v"/>
+          <lb ed="#C"/>ut inobediens deo. de fructu uetito comederet. Igi<lb ed="#C"/>tur 
+          merito eiectus de paradiso. luit penam presump<lb ed="#C"/>tionis⸵ 
+          cum exuitur tunica immortalitatis. Immorta<lb ed="#C"/>lis 
+          enim factus est homo. idest potens non mori⸵
+          <lb ed="#C"/>sed post culpam cecidit in necessitatem mortis. ut exin<lb ed="#C"/>de 
+          non posset non mori. Ex miseria intercedete. et miseria 
+          <lb ed="#C"/>affligente⸵ animaduertit quod minando predixit deus.
+          <lb ed="#C"/>nec assecutus est scientiam quam putabat promisisse ini<lb ed="#C"/>micum. 
+          Factus est tamen sicut demones quod serpens
+          <lb ed="#C"/>deos uoca<add place="in-ras">u</add>it˷ <quote ana="#gen3_5">sciens bonum et malum</quote>. quia per experienti<lb ed="#C"/>am 
+          didicit a quanto bono in quantum malum per inobedi<lb ed="#C"/>entiam 
+          corruit⸵ quamadmodum apostate spiritus a quanta gloria 
+          <lb ed="#C"/>in quanta miseriam per elationem delapsi sunt. Hoc con<lb ed="#C"/>siderans 
+          <name>ysaias</name> ait. <quote ana="#is28_19">Afflictio uel sicut plures codi<lb ed="#C"/>ces habent. <!-- i can only find the second half in isaiah28_19; is the first part also from Isaiah? where -->sola uexatio dabit intellectum auditui.</quote> Quoniam homo afflictus extra paradisum intellexit. sed 
+          <lb ed="#C"/>nimis tade⸵ quod audierat positus in eo. Hinc quoque
+          <lb ed="#C"/><name>dauid</name>. <quote ana="#ps48_13 #ps48_21"><seg type="qs">Homo</seg> inquit <seg type="qs">cum in honore esset non intellexit.
+          <lb ed="#C"/>comparatus est iumentis insipientibus et similis factus
+          <lb ed="#C"/>est illis.</seg></quote> Ideo recte per iumenta intelliguntur demones
+          <lb ed="#C"/>quia per superbiam insipientes facti obnoxii sunt one<lb ed="#C"/>ribus 
+          supplicii eterni. a quibus expiari pro nimia in<lb ed="#C"/>iquitate non poterunt.   
+        </p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>
